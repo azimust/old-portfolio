@@ -188,7 +188,14 @@ body{
     background-color: #51bb5a;
     border-radius: 25px;
 }
-.skill__bar .bar .js, .react{
+.skill__bar .bar .js{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    background-color: #51bb5a;
+    border-radius: 25px;
+}
+.skill__bar .bar .react{
     width: 1%;
     height: 100%;
     position: absolute;
