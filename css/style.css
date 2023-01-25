@@ -291,6 +291,17 @@ body{
     font-size: 18px;
 }
 /* ___________________________________________________ */
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: #51bb5a;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #414141;
+    border-radius: 10px;
+}
+/* ___________________________________________________ */
 @media (max-width:1200px) {
     .skills__main {
         margin-top: 30px;
