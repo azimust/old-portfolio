@@ -185,21 +185,21 @@ body{
     position: relative;
 }
 .skill__bar .bar .html, .css{
-    width: 50%;
+    width: 80%;
     height: 100%;
     position: absolute;
     background-color: #51bb5a;
     border-radius: 25px;
 }
 .skill__bar .bar .js{
-    width: 30%;
+    width: 60%;
     height: 100%;
     position: absolute;
     background-color: #51bb5a;
     border-radius: 25px;
 }
 .skill__bar .bar .react{
-    width: 1%;
+    width: 10%;
     height: 100%;
     position: absolute;
     background-color: #51bb5a;
@@ -209,7 +209,7 @@ body{
 .portfolio{
     border-top: 5px solid white;
     border-bottom: 5px solid white;
-    background-color: #fa7373;
+    background-color: #151623;
 }
 .portfolio__container {
     max-width: 1400px;
@@ -256,22 +256,22 @@ body{
 }
 .block__item{
     width: 400px;
-    height: 250px;
     margin: 0px 20px;
     margin-bottom: 15px;
     transition: all 0.5s ease;
-    background-size: cover;
 }
 .block__item:hover{
     transform: scale(0.9);
     transition: all 0.5s ease;
 }
 .demo{
-    background-color: #ffffff;
-    opacity: 0.9;
+    border-radius: 10px;
     padding: 90px 0px;
     color: #000000;
     font-size: 20px;
+}
+.demo h3{
+    background-color: rgba(255, 255, 255, 0.684);
 }
 /* ___________________________________________________ */
 .footer__container {
