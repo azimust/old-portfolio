@@ -7,8 +7,7 @@ let portfolioData = [
     {title: 'momentum', ref: 'https://azimust.github.io/momentum/', img: './portfolio-imgs/mom.png'},
     {title: 'code-editor', ref: 'https://azimust.github.io/code-editor-js/', img: './portfolio-imgs/edit.png'},
     {title: 'Binary', ref: 'https://azimust.github.io/binary-landing/', img: './portfolio-imgs/binary.png'},
-    {title: 'Pixel-azim', ref: 'https://azimust.github.io/pixelazim-site/', img: './portfolio-imgs/pix.png'},
-    {title: 'Expo-forum', ref: 'https://azimust.github.io/expoforum/', img: './portfolio-imgs/expo.png'},
+    {title: 'Expo-forum-landing', ref: 'https://azimust.github.io/expoforum/', img: './portfolio-imgs/expo.png'},
     {title: 'denisnovik-landing', ref: 'https://azimust.github.io/denisnovik-landing/', img: './portfolio-imgs/den.png'},
 ];
 let portfolioRow = document.querySelector('.portfolio__row-2')
