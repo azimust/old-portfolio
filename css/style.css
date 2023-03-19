@@ -21,7 +21,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #fdfdf3;
+    background-color: #1d1e2f;
     font-family: 'Secular One';
 }
 /* ___________________________________________________ */
@@ -44,30 +44,34 @@ body{
 }
 .bio__title {
     font-size: 40px;
-    color: #fa7373;
+    color: #ffffff;
 }
 .typed{
     font-size: 50px;
     font-weight: 600;
+    color: #51bb5a;
 }
 .bio__subtitle {
     padding-top: 15px;
     font-size: 25px;
+    color: white;
 }
 .bio__text {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    border-top: 1px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
     margin: 15px 0px;
     padding: 15px 0px;
     font-weight: 400;
     font-size: 25px;
     line-height: 1.3em;
     letter-spacing: 0.1em;
+    color: white;
 }
 /*--------------------*/
 .contacts__title {
     font-size: 25px;
     padding-bottom: 15px;
+    color: #51bb5a;
 }
 .contacts__items{
     width: 200px;
@@ -109,7 +113,7 @@ body{
 .bio__item-2{
     width: 260px;
     height: 300px;
-    background-color: #fa7373;
+    background-color: #ffffff;
     position: absolute;
     margin-left: 40px;
     margin-top: 20px;
@@ -127,7 +131,7 @@ body{
 }
 .bio__cv button:hover{
     color: rgb(255, 255, 255);
-    background-color: #fa7373;
+    background-color: #adadad;
     transition: all 0.5s ease;
 }
 /*--------------------*/
@@ -147,7 +151,7 @@ body{
     flex-direction: column;
 }
 .skills__text h2{
-    color: #fa7373;
+    color: #ffffff;
     font-size: 35px;
     font-weight: 500;
     letter-spacing: 0.1em;
@@ -173,7 +177,8 @@ body{
     padding: 0 20px;
 }
 .skill__info h2, p{
-    font-weight: 900;
+    color: white;
+    font-weight: 400;
     font-size: 16px;
 }
 .skill__bar .bar{
@@ -207,8 +212,6 @@ body{
 }
 /* ___________________________________________________ */
 .portfolio{
-    border-top: 5px solid white;
-    border-bottom: 5px solid white;
     background-color: #151623;
 }
 .portfolio__container {
@@ -265,8 +268,7 @@ body{
     transition: all 0.5s ease;
 }
 .demo{
-    border-radius: 10px;
-    padding: 90px 0px;
+    padding: 100px 0px;
     color: #000000;
     font-size: 20px;
 }
@@ -291,7 +293,7 @@ body{
     font-size: 18px;
 }
 .footer__info a{
-    color: #000000;
+    color: #fbfbfb;
     padding-left: 10px;
     font-size: 18px;
 }
@@ -299,10 +301,7 @@ body{
 ::-webkit-scrollbar{
     width: 15px;
 }
-::-webkit-scrollbar-track{
-    background-color: #51bb5a;
-}
 ::-webkit-scrollbar-thumb{
-    background-color: #414141;
+    background-color: #ffffff;
     border-radius: 10px;
 }
